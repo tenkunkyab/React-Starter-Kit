@@ -1,0 +1,36 @@
+{
+  "name": "react-starter-kit",
+  "version": "0.0.1",
+  "description": "React Starter Kit",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --config ./webpack.dev.js",
+    "build": "webpack --config ./webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tenkunkyab/React-Starter-Kit.git"
+  },
+  "author": "Tenzin Kunkyab",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tenkunkyab/React-Starter-Kit/issues"
+  },
+  "homepage": "https://github.com/tenkunkyab/React-Starter-Kit#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  }
+}
